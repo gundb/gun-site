@@ -1,1 +1,2 @@
-# gun-site
+# gundb.github.io
+GUN website

@@ -6,13 +6,13 @@ NC='\033[0m' # No Color
   rimraf .cache dist && \
   yarn build && \
 
-  fn=c9b06c90ea474e18e3e2357079222bfb.js && \
+  fn=d5038f03b73d97e967f3012ad5cb2884.js && \
   grep $fn dist/index.html && \
   cs=$(sha1sum dist/$fn) && \
   set -- $cs && \
   sed -i "s/${fn}/${fn}?bst=${1}/g" dist/index.html && \
 
-  fn=2d361c095c89a2687bbcf9f7866d31f4.css && \
+  fn=72fc3d4628ee09039c8c64d588033ae4.css && \
   grep $fn dist/index.html && \
   cs=$(sha1sum dist/$fn) && \
   set -- $cs && \
@@ -20,10 +20,11 @@ NC='\033[0m' # No Color
 
   find .. -maxdepth 1 -type f -not -name 'navigation.json' -delete && \
   cp dist/* .. && \
-  cp 301/* .. && \
-  rsync -aP --delete --exclude='.git/' --exclude='.cache/' --exclude='dist/' --exclude node_modules /var/www/gundocs/gundb/docs/ /media/sf_gundocs/gundb/docs && \
+  rsync -aP --delete --exclude='.git/' --exclude='.cache/' --exclude='dist/' --exclude node_modules /var/www/gundocs/gun-site/docs/ /media/sf_gundocs/gun-site/docs && \
 
   echo -e "${GREEN}=== Success ===${NC}"
 }  || {
   echo -e "${RED}!!!!!!!!!! Error !!!!!!!!!!${NC}"
 }
+
+#  cp 301/* .. && \

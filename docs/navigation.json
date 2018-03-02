@@ -191,7 +191,7 @@
       ]
     },
     "logo": {
-      "url": "http://gun.js.org/images/gun_logo-01.svg",
+      "url": "/images/gun_logo-01.svg",
       "targetUrl": "../"
     },
     "search": {

@@ -178,7 +178,7 @@
   "settings": {
     "topmenu": {
       "items": [
-        { "url": "http://gun.js.org/", "name": "Home" },
+        { "url": "/", "name": "Home" },
         { "url": "Site-Index", "name": "Index" },
         { "url": "https://github.com/amark/gun", "name": "Github" }
       ]

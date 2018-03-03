@@ -14,8 +14,8 @@
         { "name": "Tutorials", "pages": [
           { "Basic Todo App Tutorial": "Basic-Todo-App-Tutorial" },
           { "My First Todo App": "My-First-Todo-App" }
-          // - - Todo app // gun.js.org/think.html // THESE ARE IMPORTANT! PRIORITIZE!
-          // - - Chat app // gun.js.org/converse.html
+          // - - Todo app // gun.eco/think.html // THESE ARE IMPORTANT! PRIORITIZE!
+          // - - Chat app // gun.eco/converse.html
           // - - Users app // hackernoon article, or wiki/auth (old name), or scrimba 
         ] },
         { "name": "Guides",

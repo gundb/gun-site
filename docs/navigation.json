@@ -4,7 +4,8 @@
       "pages": [
         { "Introduction": "Introduction" },
         { "Installation": "Installation" },
-        { "Todo Application": "Basic-Todo-App-Tutorial" },
+        // { "Todo Application": "Basic-Todo-App-Tutorial" },
+        { "Hello World": "Hello-World" },
         { "Next Steps": "Next-Steps" },
         { "Crash Course": "Crash-Course" }
       ]
@@ -40,7 +41,9 @@
             { "How to Delete Data": "Delete" },
             { "Functional Reactive Programming": "Functional-Reactive-Programming" }, // maybe rename to "FRP" for SEO? Need to coin term "Chain Reaction Programming"? Have a URL for it too? TODO Discuss with Mark.
             { "How to Sync Time": "How-to-Sync-Time" },
-            { "How to Help": "Help" } // intentionally both here and Who!
+            { "How to do Transactions": "Transactions" },
+            { "How to Help": "Help" }, // intentionally both here and Who!
+            { "How to Contribute": "Contributing" } // intentionally both here and Who!
           ]
         },
         { "name": "Why", // COMPARISON pages against Firebase, Mongo, etc.
@@ -57,7 +60,8 @@
           "pages": [
             // - - Contributors
             // - - Community
-            { "How to Help": "help" } // intentionally both here and How!
+            { "How to Help": "help" }, // intentionally both here and How!
+            { "How to Contribute": "Contributing" } // intentionally both here and Who!
           ]
         },
         { "name": "What",
@@ -91,7 +95,7 @@
             //{ "Building Storage Adapters": "Building-Storage-Adapters" }, merge into API Adapter page.
             { "Adapter Performance": "Adapter-Performance" }, // Do we need a new menu for items like this, like docs>Learn>What? --> Mark? No. Also merge parts of this into API Adapter page, actual systems should report their own perf maybe on ecosystem page/whatever.
             
-            { "Shim": "shim.js" } // merge with awesome/community/ecosystem extensions/tooling, then have Why's "GUN vs Firebase" reference it.
+            { "Shim": "shim.js" }, // merge with awesome/community/ecosystem extensions/tooling, then have Why's "GUN vs Firebase" reference it.
             //{ "How GUN's Chaining System Works": "How-GUN%27s-Chaining-System-Works" }, // --> Is this outdated? Delete? Update? --> Mark? YES, delete, wiki/javascript took its place.
             // - - Graph Data Structures
             // - - Ad Hoc Mesh Network
@@ -114,18 +118,21 @@
             // Exisiting wiki page: "Wire-API" --> What do we do with this page? --> Mark? DELETE, Porting-GUN replaced this.
             // Exisiting wiki page: "Wire-Protocols-%28v0.1.x%29" --> What do we do with this page? --> Mark? DELETE, same as above.
             // Exisiting wiki page: "Wire-specification-and-API-%28v0.2.x%29" --> What do we do with this page? --> Mark? DELETE, is wrong now.
+            { "Service Discovery": "Service-Discovery" }
           ]
-        }
+        },
+        { "AXE": "AXE" }
       ]
     },
     { "name": "API",
       "pages": [
-        { "Complete List": "API" },
+        { "GUN API": "API" },
         // - Chaining
         // - - Core
         // - - Main
         // - - Extended
         // - Adapters
+        { "SEA API": "SEA" },
         { "name": "Adapters", "pages": [
           { "Storage": "Storage" } // TODO Discuss with Mark. We should have only short descriptions here with links to separate docs pages for each engine.
         ]}
@@ -170,8 +177,7 @@
     { "path": "Running-a-GUN-Server-%28v0.3.x%29", "redirect": "How-to-Run-A-GUN-Server" },
     { "path": "Running-a-GUN-Server-%28v0.9.x%29", "redirect": "How-to-Run-A-GUN-Server" },
     { "path": "GUN-Todo-Tutorial", "redirect": "Basic-Todo-App-Guide" },
-    { "path": "think", "redirect": "My-First-Todo-App" },
-    { "path": "Hello-World", "redirect": "Basic-Todo-App-Tutorial" }
+    { "path": "think", "redirect": "My-First-Todo-App" }
     // In old Github pages, on the old page add this: Page moved to [React Native](React-Native)
   ],
 

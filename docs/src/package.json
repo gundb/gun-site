@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "parcel -p 8085 index.html",
+    "dev": "parcel -p 51085 index.html",
     "build": "parcel build index.html --no-cache --public-url ./",
     "clean": "rimraf .cache dist"
   },

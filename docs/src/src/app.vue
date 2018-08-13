@@ -6,7 +6,7 @@
             <div class="uk-container uk-container-expand">
                 <nav class="uk-navbar">
                     <div class="uk-navbar-left">
-                        <a :href="settings.logo.targetUrl" class="uk-navbar-item uk-logo" target="_blank">
+                        <a :href="settings.logo && settings.logo.targetUrl" class="uk-navbar-item uk-logo" target="_blank">
                             <img class="uk-margin-small-right gn-logo" uk-svg :src="settings.logo.url">
                         </a>
                     </div>
@@ -188,7 +188,7 @@ export default {
     })
 
     this.menuPromise = new Promise((resolve, reject) => {
-      if (window.location.host.indexOf('breasy.site') >= 0) {
+      if (window.location.host.indexOf('breasy.site') >= 0 || window.location.host.indexOf('127.0.0.1') >= 0) {
         const localNav = require('../../navigation.json')
         this.setNavigation(localNav)
         resolve()

@@ -7,7 +7,8 @@
         // { "Todo Application": "Basic-Todo-App-Tutorial" },
         { "Hello World": "Hello-World" },
         { "Next Steps": "Next-Steps" },
-        { "Crash Course": "Crash-Course" }
+        { "Crash Course": "Crash-Course" },
+        { "FAQ": "FAQ" }
       ]
     },
     { "name": "Learn",
@@ -34,14 +35,16 @@
           "pages": [
             { "How to Run A GUN Server": "How-to-Run-A-GUN-Server"},
             { "How Writes Work": "Partials-and-Circular-References-%28v0.2.x%29" }, // rename to "Writes", redirect. TODO Discuss with Mark.
-            { "How to Create Users": "Auth" }, // rename to "Users", redirect. Split into next pages? TODO Discuss with Mark.
+            { "How to Create Users": "User" }, // rename to "Users", redirect. Split into next pages? TODO Discuss with Mark.
             { "How to Add Security": "Auth" }, // rename to "Security". TODO Discuss with Mark.
             //{ "To Manage Permissions": "Trust" }, // for when 'trust' is out?
             { "How to Extend GUN": "Adding-Methods-to-the-Gun-Chain" }, // rename to "Extensions". revamp. Also duplicate into API Chaining section? TODO Discuss with Mark.
             { "How to Delete Data": "Delete" },
             { "Functional Reactive Programming": "Functional-Reactive-Programming" }, // maybe rename to "FRP" for SEO? Need to coin term "Chain Reaction Programming"? Have a URL for it too? TODO Discuss with Mark.
+            { "How to Store Time Based Data": "Timegraph" },
             { "How to Sync Time": "How-to-Sync-Time" },
             { "How to do Transactions": "Transactions" },
+            { "How to Implement other CRDTs": "Counter" },
             { "How to Help": "Help" }, // intentionally both here and Who!
             { "How to Contribute": "Contributing" } // intentionally both here and Who!
           ]
@@ -60,7 +63,7 @@
           "pages": [
             // - - Contributors
             // - - Community
-            { "How to Help": "help" }, // intentionally both here and How!
+            { "How to Help": "Help" }, // intentionally both here and How!
             { "How to Contribute": "Contributing" } // intentionally both here and Who!
           ]
         },
@@ -81,6 +84,7 @@
             { "Conflict Resolution": "Conflict-Resolution-with-Guns" }, // rename "CRDT", redirect.
             { "Hypothetical Amnesia Machine": "Hypothetical-Amnesia-Machine" }, // is this even worth keeping? If so, merge with Conflict Resolution / CRDT page.
             { "CAP Theorem Tradeoffs": "CAP-Theorem" },
+            { "DAM": "DAM" },
             { "Sharding": "Sharding" },
             // Exisiting wiki page: "javascript" --> What do we do with this page? --> Mark? Very important page, I hope to improve it. Maybe keep lowercase though?
             { "JavaScript": "javascript" },
@@ -118,10 +122,12 @@
             // Exisiting wiki page: "Wire-API" --> What do we do with this page? --> Mark? DELETE, Porting-GUN replaced this.
             // Exisiting wiki page: "Wire-Protocols-%28v0.1.x%29" --> What do we do with this page? --> Mark? DELETE, same as above.
             // Exisiting wiki page: "Wire-specification-and-API-%28v0.2.x%29" --> What do we do with this page? --> Mark? DELETE, is wrong now.
-            { "Service Discovery": "Service-Discovery" }
+            { "Service Discovery": "Service-Discovery" },
+            { "Null": "Null" }
           ]
         },
-        { "AXE": "AXE" }
+        { "AXE": "AXE" },
+        { "Awesome GUN": "Awesome-GUN" }
       ]
     },
     { "name": "API",
@@ -134,7 +140,9 @@
         // - Adapters
         { "SEA API": "SEA" },
         { "name": "Adapters", "pages": [
-          { "Storage": "Storage" } // TODO Discuss with Mark. We should have only short descriptions here with links to separate docs pages for each engine.
+          { "Storage": "Storage" }, // TODO Discuss with Mark. We should have only short descriptions here with links to separate docs pages for each engine.
+          { "Radisk": "Radisk" },
+          { "Building Storage Adapters": "Building-Storage-Adapters" }
         ]}
         // - - Storage
         // - - - Radix
@@ -154,6 +162,8 @@
         // Exisiting wiki page: "API-%28v0.3.x%29" --> Delete permanenty --> Okay Mark? YES!
       ]
     }
+    // { "as": "as" } // Must not be in menu, but just be linked to in the awesome-modules or ecosystem
+    // { "Bounty": "Bounty" } // Must not be in menu, but is linked to in the How to Help page
   ],
   "redirects": [
     { "path": "map.html", "redirect": "API#map" },
@@ -218,3 +228,6 @@
     }
   }
 }
+
+// Todo RH:
+// https://github.com/docsifyjs/docsify

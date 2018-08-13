@@ -25,4 +25,4 @@ if ! screen -list | grep -q 'triggerscr'; then
 fi
 "
 
-vagrant up ; vagrant ssh -- -t "$SCR2 $SCR1"
+vagrant box update ; vagrant up ; vagrant ssh -- -t "$SCR2 $SCR1"

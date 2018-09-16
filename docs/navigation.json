@@ -40,7 +40,8 @@
             //{ "To Manage Permissions": "Trust" }, // for when 'trust' is out?
             { "How to Extend GUN": "Adding-Methods-to-the-Gun-Chain" }, // rename to "Extensions". revamp. Also duplicate into API Chaining section? TODO Discuss with Mark.
             { "How to Delete Data": "Delete" },
-            { "Functional Reactive Programming": "Functional-Reactive-Programming" }, // maybe rename to "FRP" for SEO? Need to coin term "Chain Reaction Programming"? Have a URL for it too? TODO Discuss with Mark.
+            { "How Reactive Programming Works": "FRP" }, // maybe rename to "FRP" for SEO? Need to coin term "Chain Reaction Programming"? Have a URL for it too? TODO Discuss with Mark.
+            { "How Chaining Works": "Chain" },
             { "How to Store Time Based Data": "Timegraph" },
             { "How to Sync Time": "How-to-Sync-Time" },
             { "How to do Transactions": "Transactions" },

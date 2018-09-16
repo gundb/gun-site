@@ -403,13 +403,13 @@ em {
   margin-bottom: 0.5em;
   font-weight: 600;
 }
-h4 {
+.gn-main h4 {
   font-size: 110%;
 }
-h3 {
+.gn-main h3 {
   font-size: 120%;
 }
-h2 {
+.gn-main h2 {
   font-size: 130%;
 }
 

@@ -140,10 +140,6 @@ blockquote {
   display: none !important;
 }
 
-.uk-h4, h4 {
-  font-size: 110% !important;
-}
-
 em {
   color: white !important;
 }
@@ -406,6 +402,7 @@ em {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-weight: 600;
+  font-size: 110%;
 }
 
 .gn-main h1 a, .gn-main h2 a, .gn-main h3 a, .gn-main h4 a, .gn-main h5 a, .gn-main h6 a {

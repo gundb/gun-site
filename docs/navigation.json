@@ -7,30 +7,30 @@
         // { "Todo Application": "Basic-Todo-App-Tutorial" },
         { "Hello World": "Hello-World" },
         { "Next Steps": "Next-Steps" },
-        { "Crash Course": "Crash-Course" },
-        { "FAQ": "FAQ" }
+        { "Crash Course": "Crash-Course" }
       ]
     },
     { "name": "Learn",
       "pages": [
         { "name": "Tutorials", "pages": [
-          { "Basic Todo App Tutorial": "Basic-Todo-App-Tutorial" },
-          { "My First Todo App": "My-First-Todo-App" }
+          { "Todo Dapp": "Todo-Dapp" },
+          { "Learn to Code": "Learn-Code" },
+          { "Basic Todo List": "Basic-Todo-App-Tutorial" }
           // - - Todo app // gun.eco/think.html // THESE ARE IMPORTANT! PRIORITIZE!
           // - - Chat app // gun.eco/converse.html
           // - - Users app // hackernoon article, or wiki/auth (old name), or scrimba 
         ] },
         { "name": "Guides",
           "pages": [
-            { "Basic Todo App Guide": "Basic-Todo-App-Guide" },
-            { "Graph Databases 101": "Graph-Databases-101" }, // TODO too similar to Crash Course, delete/merge/etc.
+            { "Intro to Graphs": "Graph-Guide" }
+            { "Basic Todo List": "Basic-Todo-App-Guide" },
+            { "React Native": "React-Native" },
+            { "AWS S3": "Using-Amazon-S3-for-Storage" }, // REMOVE, now linked in Adapter Storage section, as this is API info, not a guide. Would love a guide though for it though! TODO Discuss with Mark. See Storage.
             { "Blog Example": "Design-Examples" }, // TODO probably should be retired / deleted, or revamped and renamed.
-            { "Using Amazon S3 for storage": "Using-Amazon-S3-for-Storage" }, // REMOVE, now linked in Adapter Storage section, as this is API info, not a guide. Would love a guide though for it though! TODO Discuss with Mark. See Storage.
-            { "React": "React-Tutorial" }, // TODO They did free promotional work, so let's keep it. HOWEVER, I do want a just "React" named page that is the super simple ToDo app + ideally GUN-React binding library in the future.
-            { "React Native": "React-Native" }
+            { "React": "React-Tutorial" } // TODO They did free promotional work, so let's keep it. HOWEVER, I do want a just "React" named page that is the super simple ToDo app + ideally GUN-React binding library in the future.
           ]
         },
-        
+        { "FAQ": "FAQ" },
         { "name": "How",
           "pages": [
             { "How to Run A GUN Server": "How-to-Run-A-GUN-Server"},
@@ -45,6 +45,7 @@
             { "How to Sync Time": "How-to-Sync-Time" },
             { "How to do Transactions": "Transactions" },
             { "How to Implement other CRDTs": "Counter" },
+            { "How to use S3 for Storage": "Using-Amazon-S3-for-Storage" },
             { "How to Help": "Help" }, // intentionally both here and Who!
             { "How to Contribute": "Contributing" } // intentionally both here and Who!
           ]
@@ -64,7 +65,8 @@
             // - - Contributors
             // - - Community
             { "How to Help": "Help" }, // intentionally both here and How!
-            { "How to Contribute": "Contributing" } // intentionally both here and Who!
+            { "How to Contribute": "Contributing" }, // intentionally both here and Who!
+            { "Awesome List": "Awesome-GUN" },
           ]
         },
         { "name": "What",
@@ -126,8 +128,7 @@
             { "Null": "Null" }
           ]
         },
-        { "AXE": "AXE" },
-        { "Awesome GUN": "Awesome-GUN" }
+        { "AXE": "AXE" }
       ]
     },
     { "name": "API",

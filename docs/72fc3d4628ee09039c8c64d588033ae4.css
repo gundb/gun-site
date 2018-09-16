@@ -60,7 +60,6 @@ html, body {
 
 .uk-navbar-container {
   height: 0 !important;
-  display: none;
 }
 .uk-navbar-container:not(.uk-navbar-transparent), .uk-navbar-container:not(.uk-navbar-transparent), .uk-section-default {
   background: transparent !important;
@@ -135,6 +134,10 @@ blockquote {
 
 .uk-button-primary {
   background: transparent !important;
+}
+
+.uk-navbar-container .uk-logo {
+  display: none !important;
 }
 
 /* ------------------ END ADDITIONS BY MARK -------------------- */
@@ -648,7 +651,7 @@ code {
 }
 
 .cm-s-default .cm-comment {
-  color: #DDD !important;
+  color: #555 !important;
 }
 
 .cm-s-default .cm-def, .cm-property, .cm-s-default .cm-variable, .cm-s-default .cm-variable-2 {

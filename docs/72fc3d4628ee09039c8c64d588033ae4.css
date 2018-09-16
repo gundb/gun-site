@@ -402,7 +402,15 @@ em {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-weight: 600;
+}
+h4 {
   font-size: 110%;
+}
+h3 {
+  font-size: 120%;
+}
+h2 {
+  font-size: 130%;
 }
 
 .gn-main h1 a, .gn-main h2 a, .gn-main h3 a, .gn-main h4 a, .gn-main h5 a, .gn-main h6 a {

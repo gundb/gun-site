@@ -141,7 +141,11 @@ blockquote {
 }
 
 .uk-h4, h4 {
-	font-size: 110% !important;
+  font-size: 110% !important;
+}
+
+.em {
+  color: white !important;
 }
 
 /* ------------------ END ADDITIONS BY MARK -------------------- */

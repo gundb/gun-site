@@ -430,7 +430,7 @@ em {
 
 .gn-main blockquote {
   margin: 0;
-  padding: 0 1em;
+  padding: 0 0.5em;
   font-size: 95%;
   f-ont-style: inherit;
 }

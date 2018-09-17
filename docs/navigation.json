@@ -84,13 +84,14 @@
             { "Graph Data Structure": "Simple-introduction-to-graph-data-structures" }, // rename "Graphs", redirect, merge with next.
             { "Graph Data Structure 2": "GUN’s-Data-Format-%28JSON%29" }, // rename "Graphs", redirect, merge with next.
             { "Ad Hoc Mesh Network": "Mesh-Network-Messaging-Algorithm" }, // rename "Protocol", redirect, revamp.
-            { "Conflict Resolution": "Conflict-Resolution-with-Guns" }, // rename "CRDT", redirect.
+            { "Conflict Resolution with Guns": "Conflict-Resolution-with-Guns" }, // rename "CRDT", redirect.
+            { "Trusting Strangers with Axes": "Trusting-Strangers-with-Axes" },
+            { "Cartoon Cryptography": "Cartoon-Cryptography" },
             { "Hypothetical Amnesia Machine": "Hypothetical-Amnesia-Machine" }, // is this even worth keeping? If so, merge with Conflict Resolution / CRDT page.
             { "CAP Theorem Tradeoffs": "CAP-Theorem" },
             { "DAM": "DAM" },
             { "Sharding": "Sharding" },
             // Exisiting wiki page: "javascript" --> What do we do with this page? --> Mark? Very important page, I hope to improve it. Maybe keep lowercase though?
-            { "Cartoon Cryptography": "Cartoon-Cryptography" },
             { "JavaScript": "javascript" },
             { "Terminology": "Glossary" }, // rename "Semantics", redirect. Delete or revamp. 
             //{ "DAP theorem": "DAP-Theorem" }, // I remember coming up with something that violates it, maybe hide? Your call.
@@ -190,7 +191,10 @@
     { "path": "Running-a-GUN-Server-%28v0.3.x%29", "redirect": "How-to-Run-A-GUN-Server" },
     { "path": "Running-a-GUN-Server-%28v0.9.x%29", "redirect": "How-to-Run-A-GUN-Server" },
     { "path": "GUN-Todo-Tutorial", "redirect": "Basic-Todo-App-Guide" },
-    { "path": "think", "redirect": "My-First-Todo-App" }
+    { "path": "think", "redirect": "Learn-Code" },
+    { "path": "My-First-Todo-App", "redirect": "Learn-Code" },
+    { "path": "Conflict-Resolution", "redirect": "Conflict-Resolution-with-Guns" },
+    { "path": "Trusting-Strangers", "redirect": "Trusting-Strangers-with-Axes" }
     // In old Github pages, on the old page add this: Page moved to [React Native](React-Native)
   ],
 

@@ -90,6 +90,7 @@
             { "DAM": "DAM" },
             { "Sharding": "Sharding" },
             // Exisiting wiki page: "javascript" --> What do we do with this page? --> Mark? Very important page, I hope to improve it. Maybe keep lowercase though?
+            { "Cartoon Cryptography": "Cartoon-Cryptography" },
             { "JavaScript": "javascript" },
             { "Terminology": "Glossary" }, // rename "Semantics", redirect. Delete or revamp. 
             //{ "DAP theorem": "DAP-Theorem" }, // I remember coming up with something that violates it, maybe hide? Your call.

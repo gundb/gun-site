@@ -23,6 +23,7 @@
         { "name": "Guides",
           "pages": [
             { "Intro to Graphs": "Graph-Guide" },
+            { "Visual 101 with Diagrams": "https://medium.com/@ajmeyghani/gundb-a-graph-database-in-javascript-3860a08d873c" },
             { "Basic Todo List": "Basic-Todo-App-Guide" },
             { "React Native": "React-Native" },
             { "AWS S3": "Using-Amazon-S3-for-Storage" }, // REMOVE, now linked in Adapter Storage section, as this is API info, not a guide. Would love a guide though for it though! TODO Discuss with Mark. See Storage.

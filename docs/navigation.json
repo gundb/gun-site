@@ -28,7 +28,8 @@
             { "AWS S3": "Using-Amazon-S3-for-Storage" }, // REMOVE, now linked in Adapter Storage section, as this is API info, not a guide. Would love a guide though for it though! TODO Discuss with Mark. See Storage.
             { "Blog Example": "Design-Examples" }, // TODO probably should be retired / deleted, or revamped and renamed.
             { "React": "React-Tutorial" }, // TODO They did free promotional work, so let's keep it. HOWEVER, I do want a just "React" named page that is the super simple ToDo app + ideally GUN-React binding library in the future.
-            { "dWeb: The Decentralized Web": "dWeb-The-Decentralized-Web" }
+            { "dWeb: The Decentralized Web": "dWeb-The-Decentralized-Web" },
+            { "Privacy: What You Need To Know": "Privacy-What-You-Need-To-Know" }
           ]
         },
         { "FAQ": "FAQ" },

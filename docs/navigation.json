@@ -145,6 +145,7 @@
         // - - Extended
         // - Adapters
         { "SEA API": "SEA" },
+        { "RAD API": "RAD" },
         { "name": "Adapters", "pages": [
           { "Storage": "Storage" }, // TODO Discuss with Mark. We should have only short descriptions here with links to separate docs pages for each engine.
           { "Radisk": "Radisk" },
@@ -196,7 +197,8 @@
     { "path": "think", "redirect": "Learn-Code" },
     { "path": "My-First-Todo-App", "redirect": "Learn-Code" },
     { "path": "Conflict-Resolution", "redirect": "Conflict-Resolution-with-Guns" },
-    { "path": "Trusting-Strangers", "redirect": "Trusting-Strangers-with-Axes" }
+    { "path": "Trusting-Strangers", "redirect": "Trusting-Strangers-with-Axes" },
+    { "path": "Install", "redirect": "Installation" }
     // In old Github pages, on the old page add this: Page moved to [React Native](React-Native)
   ],
 

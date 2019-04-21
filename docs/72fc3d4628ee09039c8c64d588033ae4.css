@@ -233,7 +233,7 @@ em {
 }
 
 .gn-code pre, .gn-code .CodeMirror {
-  font: 50% 'Roboto Mono', monospace;
+  font: 90% 'Roboto Mono', monospace;
   color: black;
   -moz-tab-size: 1;
   tab-size: 1;

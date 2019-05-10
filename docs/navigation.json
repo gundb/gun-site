@@ -36,7 +36,7 @@
         { "name": "How",
           "pages": [
             { "How to Run A GUN Server": "How-to-Run-A-GUN-Server"},
-            { "How Writes Work": "Partials-and-Circular-References-%28v0.2.x%29" }, // rename to "Writes", redirect. TODO Discuss with Mark.
+            { "How Writes Work": "Partials-and-Circular-References" }, // rename to "Writes", redirect. TODO Discuss with Mark.
             { "How to Create Users": "User" }, // rename to "Users", redirect. Split into next pages? TODO Discuss with Mark.
             { "How to Add Security": "Auth" }, // rename to "Security". TODO Discuss with Mark.
             //{ "To Manage Permissions": "Trust" }, // for when 'trust' is out?
@@ -118,8 +118,6 @@
             // Exisiting wiki page: "Migrating-from-Parse" --> What do we do with this page? --> Mark? YES, either into GUIDE section or Why GUN vs Parse ?
             // Exisiting wiki page: "Modules" --> What do we do with this page? --> Mark? MERGE a cleaned version into ecosystem/community/awesome
             // Exisiting wiki page: "Projects" --> What do we do with this page? --> Mark? MERGE a cleaned version into community/ecosystem/modules
-            // Exisiting wiki page: "Partials-and-Circular-References-%28v0.1.x%29" --> What do we do with this page? --> Mark? Latest is "How Writes Work", so delete this.
-            // Exisiting wiki page: "Partials-and-Circular-References-%28v0.2.x%29" --> What do we do with this page? --> Mark? SAME as above.
             // Exisiting wiki page: "Putting-Data-%28v0.2.x%29" --> What do we do with this page? --> Mark? DELETE
             // Exisiting wiki page: "Snippets-%28v0.2.x%29" --> What do we do with this page? --> Mark? MERGE a cleaned version into module/ecosystem/community
             // Exisiting wiki page: "Snippets-%28v0.3.x%29" --> What do we do with this page? --> Mark? MERGE a cleaned version into module/ecosystem/community

@@ -87,7 +87,7 @@
             { "DAM": "DAM" },
             { "CRDT": "Conflict-Resolution-with-Guns" },
             { "PTSD": "PTSD" },
-            { "PANIC": "https://github.com/gundb/panic-server" },
+            { "name": "PANIC", "url": "https://github.com/gundb/panic-server" },
             { "Cartoon Cryptography": "Cartoon-Cryptography" },
             { "Graph Data Structure": "Simple-introduction-to-graph-data-structures" }, // rename "Graphs", redirect, merge with next.
             { "Graph Data Structure 2": "GUN’s-Data-Format-%28JSON%29" }, // rename "Graphs", redirect, merge with next.
@@ -144,7 +144,7 @@
         // - Adapters
         { "SEA API": "SEA" },
         { "RAD API": "RAD" },
-        { "JOY API": "https://github.com/eraeco/joydb" },
+        { "name": "JOY API", "url": "https://github.com/eraeco/joydb" },
         { "name": "Adapters", "pages": [
           { "Storage": "Storage" }, // TODO Discuss with Mark. We should have only short descriptions here with links to separate docs pages for each engine.
           { "Radisk": "Radisk" },

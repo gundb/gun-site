@@ -83,19 +83,15 @@
         { "name": "Architecture",
           "pages": [
             { "How to Port GUN": "Porting-GUN" }, // I want to rename, but I can't think of anything better.
+            { "CAP": "CAP-Theorem" },
+            { "DAM": "DAM" },
+            { "CRDT": "Conflict-Resolution-with-Guns" },
+            { "PTSD": "PTSD" },
+            { "PANIC": "https://github.com/gundb/panic-server" },
+            { "Cartoon Cryptography": "Cartoon-Cryptography" },
             { "Graph Data Structure": "Simple-introduction-to-graph-data-structures" }, // rename "Graphs", redirect, merge with next.
             { "Graph Data Structure 2": "GUN’s-Data-Format-%28JSON%29" }, // rename "Graphs", redirect, merge with next.
-            { "Ad Hoc Mesh Network": "Mesh-Network-Messaging-Algorithm" }, // rename "Protocol", redirect, revamp.
-            { "Conflict Resolution with Guns": "Conflict-Resolution-with-Guns" }, // rename "CRDT", redirect.
-            { "Trusting Strangers with Axes": "Trusting-Strangers-with-Axes" },
-            { "Cartoon Cryptography": "Cartoon-Cryptography" },
-            { "Hypothetical Amnesia Machine": "Hypothetical-Amnesia-Machine" }, // is this even worth keeping? If so, merge with Conflict Resolution / CRDT page.
-            { "CAP Theorem Tradeoffs": "CAP-Theorem" },
-            { "DAM": "DAM" },
-            { "Sharding": "Sharding" },
-            // Exisiting wiki page: "javascript" --> What do we do with this page? --> Mark? Very important page, I hope to improve it. Maybe keep lowercase though?
-            { "JavaScript": "javascript" },
-            { "Terminology": "Glossary" }, // rename "Semantics", redirect. Delete or revamp. 
+            { "Hypothetical Amnesia Machine": "Hypothetical-Amnesia-Machine" }, // is this even worth keeping? If so, merge with Conflict Resolution / CRDT page
             //{ "DAP theorem": "DAP-Theorem" }, // I remember coming up with something that violates it, maybe hide? Your call.
             //{ "Data Storage": "Storage-Engine" }, // delete, now it is API Adapter Storage page
             { "Authentication": "Security%2C-Authentication%2C-Authorization" }, // --> Is this outdated? Delete? Update? --> Mark?
@@ -106,7 +102,6 @@
             //{ "Building Storage Adapters": "Building-Storage-Adapters" }, merge into API Adapter page.
             { "Adapter Performance": "Adapter-Performance" }, // Do we need a new menu for items like this, like docs>Learn>What? --> Mark? No. Also merge parts of this into API Adapter page, actual systems should report their own perf maybe on ecosystem page/whatever.
             
-            { "Shim": "shim.js" }, // merge with awesome/community/ecosystem extensions/tooling, then have Why's "GUN vs Firebase" reference it.
             //{ "How GUN's Chaining System Works": "How-GUN%27s-Chaining-System-Works" }, // --> Is this outdated? Delete? Update? --> Mark? YES, delete, wiki/javascript took its place.
             // - - Graph Data Structures
             // - - Ad Hoc Mesh Network
@@ -128,6 +123,11 @@
             // Exisiting wiki page: "Wire-Protocols-%28v0.1.x%29" --> What do we do with this page? --> Mark? DELETE, same as above.
             // Exisiting wiki page: "Wire-specification-and-API-%28v0.2.x%29" --> What do we do with this page? --> Mark? DELETE, is wrong now.
             { "Service Discovery": "Service-Discovery" },
+            { "Terminology": "Glossary" }, // rename "Semantics", redirect. Delete or revamp. 
+            { "Sharding": "Sharding" },
+            // Exisiting wiki page: "javascript" --> What do we do with this page? --> Mark? Very important page, I hope to improve it. Maybe keep lowercase though?
+            { "JavaScript": "javascript" },
+            { "Shim": "shim.js" }, // merge with awesome/community/ecosystem extensions/tooling, then have Why's "GUN vs Firebase" reference it.
             { "Null": "Null" }
           ]
         },
@@ -144,6 +144,7 @@
         // - Adapters
         { "SEA API": "SEA" },
         { "RAD API": "RAD" },
+        { "JOY API": "https://github.com/eraeco/joydb" },
         { "name": "Adapters", "pages": [
           { "Storage": "Storage" }, // TODO Discuss with Mark. We should have only short descriptions here with links to separate docs pages for each engine.
           { "Radisk": "Radisk" },

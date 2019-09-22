@@ -235,7 +235,7 @@
     },
     "editor": {
       "codepen": {
-        "jsExternal": "https://cdn.rawgit.com/amark/gun/master/gun.js?nc={%random%}"
+        "jsExternal": "https://cdn.jsdelivr.net/gh/amark/gun/gun.js?nc={%random%}"
       }
     }
   }

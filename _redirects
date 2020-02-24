@@ -1,1 +1,4 @@
-/docs/*   /docs/index.html   200
+/docs/*                  /docs/index.html             200
+/                        /main/index.html             200
+/index.html              /main/index.html             200
+/main/*                  /main/main/*                 200

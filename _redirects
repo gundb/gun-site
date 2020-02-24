@@ -1,4 +1,16 @@
-/docs/*                  /docs/index.html             200
-/                        /main/index.html             200
-/index.html              /main/index.html             200
-/main/*                  /main/main/*                 200
+/docs/*                  /docs/index.html                 200
+
+/                        /main/index.html                 200
+/index                   /                                301
+/index.html              /                                301
+
+/main/*                  /main/main/:splat                200!
+/icons/*                 /main/main/icons/:splat          200!
+/page-data/*             /main/page-data/:splat           200!
+
+/manifest.webmanifest    /main/main/manifest.webmanifest  200
+/sitemap.xml             /main/main/sitemap.xml           200
+
+/chunk-map.json          /main/chunk-map.json             200
+/og-image.png            /main/og-image.png               200
+/webpack.stats.json      /main/webpack.stats.json         200

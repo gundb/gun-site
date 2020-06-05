@@ -1,0 +1,24 @@
+CACHE MANIFEST
+#ver:6/5/2020, 1:52:54 PM
+#plugin:5.0.7
+
+CACHE:
+/0.bf90fed5c42fbe65ca9b.css
+/0.bf90fed5c42fbe65ca9b.js
+/app.bf90fed5c42fbe65ca9b.css
+/app.bf90fed5c42fbe65ca9b.js
+/commons.bf90fed5c42fbe65ca9b.css
+/commons.bf90fed5c42fbe65ca9b.js
+/runtime~app.bf90fed5c42fbe65ca9b.js
+/themes.bf90fed5c42fbe65ca9b.js
+/0.bf90fed5c42fbe65ca9b.js.LICENSE.txt
+/app.bf90fed5c42fbe65ca9b.js.LICENSE.txt
+/themes.bf90fed5c42fbe65ca9b.js.LICENSE.txt
+/commons.bf90fed5c42fbe65ca9b.js.LICENSE.txt
+/
+
+NETWORK:
+*
+
+FALLBACK:
+/ /

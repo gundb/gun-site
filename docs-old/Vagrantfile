@@ -1,0 +1,32 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/bionic64"
+
+  config.vm.provider "virtualbox" do |vb|
+     vb.customize [ "modifyvm", :id, "--uartmode1", "disconnected" ]
+  end
+
+  config.vm.network "forwarded_port", guest: 51085, host: 51085
+  config.vm.network "forwarded_port", guest: 51086, host: 51086
+
+  config.vm.synced_folder "../", "/vagrant"
+
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get install -y nodejs
+    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+    echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+    sudo apt update
+    sudo apt install yarn
+    yarn global add parcel-bundler
+    rsync -avzh /vagrant/ /_vagrant/
+    cd /_vagrant/docs/src
+    yarn
+  SHELL
+
+  config.vm.provider :virtualbox do |vm|
+    vm.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant", "1"]
+  end
+end

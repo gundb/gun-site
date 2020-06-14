@@ -1,24 +1,20 @@
 CACHE MANIFEST
-#ver:6/10/2020, 11:12:42 AM
+#ver:6/14/2020, 7:39:01 PM
 #plugin:5.0.7
 
 CACHE:
-/0.954831dc9c18b46aaa44.css
-/0.954831dc9c18b46aaa44.js
-/app.954831dc9c18b46aaa44.css
-/app.954831dc9c18b46aaa44.js
-/commons.954831dc9c18b46aaa44.css
-/commons.954831dc9c18b46aaa44.js
-/runtime~app.954831dc9c18b46aaa44.js
-/themes.954831dc9c18b46aaa44.js
-/themes.954831dc9c18b46aaa44.js.LICENSE.txt
-/0.954831dc9c18b46aaa44.js.LICENSE.txt
-/app.954831dc9c18b46aaa44.js.LICENSE.txt
-/commons.954831dc9c18b46aaa44.js.LICENSE.txt
-/
+./0.86ca9116ecdb65f85415.css
+./0.86ca9116ecdb65f85415.js
+./app.86ca9116ecdb65f85415.css
+./app.86ca9116ecdb65f85415.js
+./commons.86ca9116ecdb65f85415.css
+./commons.86ca9116ecdb65f85415.js
+./runtime~app.86ca9116ecdb65f85415.js
+./themes.86ca9116ecdb65f85415.js
+./0.86ca9116ecdb65f85415.js.LICENSE.txt
+./app.86ca9116ecdb65f85415.js.LICENSE.txt
+./themes.86ca9116ecdb65f85415.js.LICENSE.txt
+./commons.86ca9116ecdb65f85415.js.LICENSE.txt
 
 NETWORK:
 *
-
-FALLBACK:
-/ /

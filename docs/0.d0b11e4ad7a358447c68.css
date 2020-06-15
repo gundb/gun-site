@@ -1,0 +1,1 @@
+button,button:active,button:focus,button:hover{outline:none;border:0;background:none;box-shadow:none;border-radius:0;cursor:pointer}.blink_copy{animation-name:blinker;animation-duration:.6s;animation-timing-function:linear;animation-iteration-count:1;color:var(--highlight-color)}

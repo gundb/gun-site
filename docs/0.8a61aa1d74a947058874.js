@@ -1,3 +1,3 @@
-/*! For license information please see 0.cad4665b7207c42e07e9.js.LICENSE.txt */
+/*! For license information please see 0.8a61aa1d74a947058874.js.LICENSE.txt */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[0],{"./lib/components/CPaste/index.js":function(e,t,n){"use strict";n.r(t);n("./lib/components/CPaste/styles.styl");t.default=function(){document.querySelectorAll(".cp").forEach((function(e){return e.addEventListener("click",(function(e){var t=e.target.parentNode,n=t.querySelector("code").innerText,o=t.querySelector("code").parentNode;return navigator.clipboard.writeText(n).then((function(){o.classList.add("blink_copy"),setTimeout((function(){return o.classList.remove("blink_copy")}),600)}),(function(){})),!1}))}))}},"./lib/components/CPaste/styles.styl":function(e,t,n){}}]);
-//# sourceMappingURL=0.cad4665b7207c42e07e9.js.map
+//# sourceMappingURL=0.8a61aa1d74a947058874.js.map

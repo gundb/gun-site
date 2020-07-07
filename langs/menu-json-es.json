@@ -1,0 +1,425 @@
+{
+  "navigation": [
+    {
+      "Empezando": "/docs/",
+      "pages": [
+        { "Introducción": "/docs/Introduction",
+          "pages": [
+            { "Offline-First": "/docs/Introduction#offline-first" },
+            { "Distribuido": "/docs/Introduction#distributed" }
+          ]
+        },
+        { "Instalación": "/docs/Installation",
+          "pages": [
+            { "Navegador": "/docs/Installation#browser" },
+            { "Node": "/docs/Installation#node" }
+          ]
+        },
+        { "Hola Mundo": "/docs/Hello-World" },
+        { "Próximos pasos": "/docs/Next-Steps",
+          "pages": [
+            { "Desarrolladores de aplicaciones": "/docs/Next-Steps#application-developers" },
+            { "Arquitectos de software": "/docs/Next-Steps#software-architects" }
+          ]
+        },
+        { "Curso intensivo": "/docs/Crash-Course" }
+      ]
+    },
+    {
+      "Aprender": "/docs/Todo-Dapp",
+      "pages": [
+        {
+          "Tutoriales": "/docs/Todo-Dapp",
+          "pages": [
+            { "Todo Dapp": "/docs/Todo-Dapp" },
+            { "Aprende a codificar": "/docs/Learn-Code" },
+            { "Lista de tareas básicas": "/docs/Basic-Todo-App-Tutorial" }
+          ]
+        },
+        {
+          "Guías": "/docs/Graph-Guide",
+          "pages": [
+            { "Introducción a los gráficos": "/docs/Graph-Guide" },
+            {
+              "Lista de tareas básicas": "/docs/Basic-Todo-App-Guide",
+              "pages": [
+                { "El html básico": "/docs/Basic-Todo-App-Guide#the-basic-html" },
+                { "Añadir GUN": "/docs/Basic-Todo-App-Guide#add-gun" },
+                { "Mostrar tarea": "/docs/Basic-Todo-App-Guide#show-the-todos" },
+                { "Editar tarea": "/docs/Basic-Todo-App-Guide#edit-todos" },
+                { "Agregar un estado completado": "/docs/Basic-Todo-App-Guide#add-a-done-state" },
+                { "Eliminar tareas": "/docs/Basic-Todo-App-Guide#delete-todos" },
+                { "Ahora actualice el navegador": "/docs/Basic-Todo-App-Guide#now-refresh-the-browser" },
+                { "El código completo": "/docs/Basic-Todo-App-Guide#the-full-code" }
+              ]
+            },
+            {
+              "React-Native": "/docs/React-Native",
+              "pages": [
+                { "Dependencias": "/docs/React-Native#dependencies" },
+                { "Tutorial": "/docs/React-Native#tutorial" },
+                { "Paso 1": "/docs/React-Native#step-1" },
+                { "Paso 2: React Native Dev Environment": "/docs/React-Native#step-2-react-native-dev-environment" },
+                { "Desarrollo local": "/docs/React-Native#local-development" },
+                { "Notas": "/docs/React-Native#notes" },
+                { "Anterior": "/docs/React-Native#old" }
+              ]
+            },
+            { "AWS S3": "/docs/Using-Amazon-S3-for-Storage" },
+            { "Ejemplo de blog": "/docs/Design-Examples" },
+            {
+              "React": "/docs/React-Tutorial",
+              "pages": [
+                { "Introducción a las bases de datos descentralizadas con GUN": "/docs/React-Tutorial#intro-to-decentralized-databases-with-gun" },
+                { "Un ejemplo de trabajo": "/docs/React-Tutorial#a-working-example" }
+              ]
+            },
+            {
+              "Svelte": "/docs/Svelte",
+              "pages": [
+                { "Guía": "/docs/Svelte#guide" },
+                { "Tutorial": "/docs/Svelte#tutorial" }
+              ]
+            },
+            { "dWeb: la web descentralizada": "/docs/dWeb-The-Decentralized-Web" },
+            { "Privacidad: lo que necesita saber": "/docs/Privacy-What-You-Need-To-Know" }
+          ]
+        },
+        { "FAQ": "/docs/FAQ" },
+        {
+          "Cómo": "/docs/",
+          "pages": [
+            { "Cómo ejecutar un servidor GUN": "/docs/How-to-Run-A-GUN-Server" },
+            { "Cómo funcionan las escrituras": "/docs/Partials-and-Circular-References" },
+            { "Cómo crear usuarios": "/docs/User" },
+            { "Cómo agregar seguridad": "/docs/Auth" },
+            { "Cómo extender el GUN": "/docs/Adding-Methods-to-the-Gun-Chain" },
+            { "Cómo borrar datos": "/docs/Delete" },
+            { "Cómo funciona la programación reactiva": "/docs/FRP" },
+            { "Cómo funciona el encadenamiento": "/docs/Chain" },
+            { "Cómo almacenar datos basados en el tiempo": "/docs/Timegraph" },
+            { "Cómo sincronizar tiempo": "/docs/How-to-Sync-Time" },
+            { "Cómo hacer transacciones": "/docs/Transactions" },
+            { "Cómo implementar otros CRDT": "/docs/Counter" },
+            { "Cómo usar S3 para almacenamiento": "/docs/Using-Amazon-S3-for-Storage" },
+            { "Como ayudar": "/docs/Help" },
+            { "Cómo contribuir": "/docs/Contributing" }
+          ]
+        },
+        {
+          "Por qué": "/docs/",
+          "pages": [
+            {
+              "Por qué es importante el rendimiento": "/docs/Performance"
+            }
+          ]
+        },
+        {
+          "Quién": "/docs/",
+          "pages": [
+            { "Como ayudar": "/docs/Help" },
+            { "Cómo contribuir": "/docs/Contributing" },
+            { "Lista impresionante": "/docs/Awesome-GUN" }
+          ]
+        },
+        {
+          "Qué": "/docs/",
+          "pages": [
+            { "Roadmap": "/docs/Roadmap" },
+            { "Why GUN Won't Shut Down": "/docs/Why-GUN-Won%27t-Shut-Down" }
+          ]
+        },
+        {
+          "Arquitectura": "/docs/",
+          "pages": [
+            {
+              "Cómo portar GUN": "/docs/Porting-GUN",
+              "pages": [
+                { "Ejecutando un servidor": "/docs/Porting-GUN#running-a-server" },
+                { "Grafico": "/docs/Porting-GUN#graph" },
+                { "GUN Wire Spec": "/docs/Porting-GUN#gun-wire-spec" },
+                { "Conflict Resolution - THIS SECTION IS NOT FINISHED AND WILL PROBABLY BE ENTIRELY REWRITTEN": "/docs/Porting-GUN#conflict-resolution-this-section-is-not-finished-and-will-probably-be-entirely-rewritten" },
+                { "Trabajo en progreso": "/docs/Porting-GUN#work-in-progress" }
+              ]
+            },
+            { "CAP": "/docs/CAP-Theorem" },
+            {
+              "DAM": "/docs/DAM",
+              "pages": [
+                { "Daisy-chain Ad-hoc Mesh-network": "/docs/DAM#daisy-chain-ad-hoc-mesh-network" },
+                { "API": "/docs/DAM#api" },
+                { "Architecture": "/docs/DAM#architecture" }
+              ]
+            },
+            {
+              "CRDT": "/docs/Conflict-Resolution-with-Guns",
+              "pages": [
+                { "Requirements": "/docs/Conflict-Resolution-with-Guns#requirements" },
+                { "Implementation": "/docs/Conflict-Resolution-with-Guns#implementation" },
+                { "Questions": "/Conflict-Resolution-with-Guns#questions" },
+                { "Further Reading": "docs/Conflict-Resolution-with-Guns#further-reading" }
+              ]
+            },
+            { "PTSD": "/docs/PTSD" },
+            { "PANIC": "/docs/Panic" },
+            { "PARTY": "/docs/Party" },
+            { "Iris": "/docs/Iris" },
+            {
+              "Cartoon Cryptography": "/docs/Cartoon-Cryptography",
+              "pages": [
+                { "Security": "/docs/Cartoon-Cryptography#security" },
+                { "Cryptography": "/docs/Cartoon-Cryptography#cryptography" },
+                { "Work": "/docs/Cartoon-Cryptography#work" },
+                { "Encryption": "/docs/Cartoon-Cryptography#encryption" },
+                { "Privacy": "/docs/Cartoon-Cryptography#privacy" },
+                { "Signatures": "/docs/Cartoon-Cryptography#signatures" },
+                { "Summary": "/docs/Cartoon-Cryptography#summary" }
+              ]
+            },
+            {
+              "Graph Data Structure": "/docs/Simple-introduction-to-graph-data-structures",
+              "pages": [
+                { "All about souls": "/docs/Simple-introduction-to-graph-data-structures#all-about-souls" }
+              ]
+            },
+            { "Graph Data Structure 2": "/docs/GUN’s-Data-Format-%28JSON%29" },
+            {
+              "Hypothetical Amnesia Machine": "/docs/Hypothetical-Amnesia-Machine",
+              "pages": [
+                { "Introduction": "/docs/Hypothetical-Amnesia-Machine#introduction" },
+                { "Existing mechanisms and challenges": "/docs/Hypothetical-Amnesia-Machine#existing-mechanisms-and-challenges" },
+                { "GUN's Hypothetical Amnesia Machine (HAM)": "/docs/Hypothetical-Amnesia-Machine#guns-hypothetical-amnesia-machine-ham-" },
+                { "Footnotes": "/docs/Hypothetical-Amnesia-Machine#footnotes" }
+              ]
+            },
+            {
+              "Authentication": "/docs/Security%2C-Authentication%2C-Authorization",
+              "pages": [
+                { "Introduction": "/docs/Security%2C-Authentication%2C-Authorization#introduction" },
+                { "Some key concepts": "/docs/Security%2C-Authentication%2C-Authorization#some-key-concepts" },
+                { "Answers !": "/docs/Security%2C-Authentication%2C-Authorization#answers-" }
+              ]
+            },
+            {
+              "Adapter Performance": "/docs/Adapter-Performance",
+              "pages": [
+                { "Key Considerations": "/docs/Adapter-Performance#key-considerations" },
+                { "How Benchmarks Work": "/docs/Adapter-Performance#how-benchmarks-work" },
+                { "Gun-DB": "/docs/Adapter-Performance#gun-db" },
+                { "Gun-Mongo": "/docs/Adapter-Performance#gun-mongo-key" },
+                { "Gun-File": "/docs/Adapter-Performance#gun-file" },
+                { "Gun-Level": "/docs/Adapter-Performance#gun-level" },
+                { "Running Benchmarks": "/docs/Adapter-Performance#running-benchmarks" },
+                { "Future work": "/docs/Adapter-Performance#future-work" }
+              ]
+            },
+            { "Service Discovery": "/docs/Service-Discovery" },
+            { "Terminology": "/docs/Glossary" },
+            {
+              "Sharding": "/docs/Sharding",
+              "pages": [
+                { "Advantages": "/docs/Sharding#advantages" },
+                { "Observations": "/docs/Sharding#observations" },
+                { "Misconception": "/docs/Sharding#misconception" },
+                { "Conclusion": "/docs/Sharding#conclusion" }
+              ]
+            },
+            {
+              "JavaScript": "/docs/javascript",
+              "pages": [
+                { "Type": "/docs/javascript#type" },
+                { "Event": "/docs/javascript#event" },
+                { "State": "/docs/javascript#state" },
+                { "Graphs": "/docs/javascript#graphs" },
+                { "Deduplication": "/docs/javascript#deduplication" },
+                { "Implementation": "/docs/javascript#implementation" },
+                { "Root": "/docs/javascript#root" },
+                { "Chain": "/docs/javascript#chain" }
+              ]
+            },
+            {
+              "Shim": "/docs/shim.js",
+              "pages": [
+                { "Use": "/docs/shim.js#use" },
+                { "Answer": "/docs/shim.js#nodejs" },
+                { "Browser": "/docs/shim.js#browser" },
+                { "Firebase": "/docs/shim.js#firebase" },
+                { ".on('value', cb)": "/docs/shim.js#-code-on-value-cb-code-" },
+                { ".onDisconnect()": "/docs/shim.js#-code-ondisconnect-code-" },
+                { ".connected(cb": "/docs/shim.js#-code-connected-cb-code-" }
+              ]
+            },
+            {
+              "Null": "/docs/Null",
+              "pages": [
+                { "Question": "/docs/Null#question" },
+                { "Answer": "/docs/Null#answer" }
+              ]
+            }
+          ]
+        },
+        {
+          "AXE": "/docs/AXE",
+          "pages": [
+            { "Advanced eXchange Equation": "/docs/AXE#advanced-exchange-equation" },
+            { "Cartoon Whitepaper": "/docs/AXE#cartoon-whitepaper" },
+            { "Lightning Talk": "/docs/AXE#lightning-talk" },
+            { "Whitepaper": "/docs/AXE#whitepaper" },
+            { "Contributing": "/docs/AXE#contributing" },
+            { "Roadmap": "/docs/AXE#roadmap" },
+            { "Code": "/docs/AXE#code" },
+            { "FAQ": "/docs/AXE#faq" },
+            { "Chats": "/docs/AXE#chats" }
+          ]
+        }
+      ]
+    },
+    {
+      "API": "/docs/API",
+      "pages": [
+        {
+          "GUN API": "/docs/API",
+          "pages": [
+            {
+              "-- Core API --": "/docs/API#-core-api-" ,
+              "pages": [
+                { "Gun(options)": "/docs/API#options" },
+                { "gun.put(data, callback)": "/docs/API#-a-name-put-a-gun-put-data-callback-" },
+                { "gun.get(key)": "/docs/API#-a-name-get-a-gun-get-key-" },
+                { "gun.opt(options)": "/docs/API#-a-name-opt-a-gun-opt-options-" },
+                { "gun.back(amount)": "/docs/API#-a-name-back-a-gun-back-amount-" }
+              ]
+            },
+            {
+              "-- Main API --": "/docs/API#-main-api-" ,
+              "pages": [
+                { "gun.on(callback, option)": "/docs/API#-a-name-on-a-gun-on-callback-option-" },
+                { "gun.once(callback, option)": "/docs/API#-a-name-once-a-gun-once-callback-option-" },
+                { "gun.set(data, callback)": "/docs/API#-a-name-set-a-gun-set-data-callback-" },
+                { "gun.map(callback)": "/docs/API#-a-name-map-a-gun-map-callback-" }
+              ]
+            },
+            {
+              "-- User API --": "/docs/User" ,
+              "pages": [
+                { "gun.user.create": "/docs/User#user-create" },
+                { "gun.user.auth": "/docs/User#user-auth" },
+                { "gun.user.leave": "/docs/User#user-leave" },
+                { "gun.user.delete": "/docs/User#user-delete" },
+                { "gun.user.recall": "/docs/User#user-recall" },
+                { "gun.user.alive": "/docs/User#user-alive" },
+                { "gun.user.trust": "/docs/User#user-trust" },
+                { "gun.user.grant": "/docs/User#user-grant" },
+                { "gun.user.secret": "/docs/User#user-secret" }
+              ]
+            },
+            {
+              "-- Extended API --": "/docs/API#-extended-api-" ,
+              "pages": [
+                { "gun.path(key)": "/docs/API#-a-name-path-a-gun-path-key-" },
+                { "gun.not(callback)": "/docs/API#-a-name-not-a-gun-not-callback-" },
+                { "gun.open(callback)": "/docs/API#-a-name-open-a-gun-open-callback-" },
+                { "gun.load(cb, opt)": "/docs/API#-a-name-load-a-gun-load-cb-opt-" },
+                { "gun.then(cb)": "/docs/API#-a-name-then-a-gun-then-cb-not-official-yet-" },
+                { ".promise(cb)": "/docs/API#-promise-cb-not-official-yet-" },
+                { "gun.bye()": "/docs/API#-a-name-bye-a-gun-bye-" },
+                { "gun.later(cb, seconds)": "/docs/API#-a-name-later-a-gun-later-cb-seconds-" },
+                { "gun.unset(node)": "/docs/API#-a-name-unset-a-gun-unset-node-" },
+                { "Forget (experimental)": "/docs/Forget" }
+              ]
+            },
+            {
+              "-- Gun utils --": "/docs/API#-a-name-utilities-a-gun-utils-" ,
+              "pages": [
+                { "Gun.node.is(data)": "/docs/API#gun-node-is-data-" },
+                { "Gun.node.soul(data)": "/docs/API#gun-node-soul-data-" },
+                { "Gun.node.ify(json)": "/docs/API#gun-node-ify-json-" }
+              ]
+            },
+            { "Chats": "/docs/AXE#chats" }
+          ]
+        },
+        {
+          "SEA API": "/docs/SEA" ,
+          "pages": [
+            { "Quickstart": "/docs/SEA#quickstart" },
+            { "Return": "/docs/SEA#return" },
+            { "Errors": "/docs/SEA#errors" },
+            { "Work": "/docs/SEA#work" },
+            { "Pair": "/docs/SEA#pair" },
+            { "sign": "/docs/SEA#sign" },
+            { "verify": "/docs/SEA#verify" },
+            { "encrypt": "/docs/SEA#encrypt" },
+            { "decrypt": "/docs/SEA#decrypt" }
+          ]
+        },
+        {
+          "RAD API": "/docs/RAD" ,
+          "pages": [
+            { "Install": "/docs/RAD#install" },
+            { "Lex": "/docs/RAD#lex" },
+            { "Without": "/docs/RAD#without" },
+            { "API": "/docs/RAD#api" },
+            { "Write": "/docs/RAD#write" },
+            { "Read": "/docs/RAD#read" }
+          ]
+        },
+        { "JOY API": "/docs/JOY" },
+        {
+          "Adapters": "/docs/Adapters",
+          "pages": [
+            {
+              "Storage": "/docs/Storage",
+              "pages": [
+                { "Included Storage Engines": "/docs/Storage#included-storage-engines" },
+                { "localStorage": "/docs/Storage#localstorage" },
+                { "File": "/docs/Storage#file" },
+                { "Radix": "/docs/Storage#radix" },
+                { "S3": "/docs/Storage#s3" },
+                { "IPFS": "/docs/Storage#ipfs" },
+                { "Third Party Storage Solutions": "/docs/Storage#third-party-storage-solutions" },
+                { "Level": "/docs/Storage#file-system-alt1-" },
+                { "File System (Alt1)": "/docs/Storage#sqlite-odbc-sack-" },
+                { "Flint": "/docs/Storage#flint" },
+                { "MongoDB": "/docs/Storage#mongodb" },
+                { "MySQ": "/docs/Storage#mysql" },
+                { "Cassandra": "/docs/Storage#cassandra" },
+                { "Elasticsearch": "/docs/Storage#elasticsearch" },
+                { "LMDB": "/docs/Storage#lmdb" }
+              ]
+            },
+            {
+              "Radisk": "/docs/Radisk" ,
+              "pages": [
+                { "Radisk Storage Engine": "/docs/Radisk#radisk-storage-engine" }
+              ]
+            },
+            {
+              "Building Storage Adapters": "/docs/Building-Storage-Adapters" ,
+              "pages": [
+                { "Use RAD Instead": "/docs/Building-Storage-Adapters#use-rad-instead" },
+                { "Hook Into Gun <= v0.2019.x IO Events": "/docs/Building-Storage-Adapters#hook-into-gun-code-v0-2019-x-code-io-events" },
+                { "Storing data (put requests)": "/docs/Building-Storage-Adapters#storing-data-code-put-code-requests-" },
+                { "Request Formats": "/docs/Building-Storage-Adapters#request-formats" },
+                { "Acknowledge a write": "/docs/Building-Storage-Adapters#acknowledge-a-write" },
+                { "Retrieving data (get requests)": "/docs/Building-Storage-Adapters#retrieving-data-code-get-code-requests-" },
+                { "get request format": "/docs/Building-Storage-Adapters#-code-get-code-request-format" },
+                { "Acknowledging a get / send back data": "/docs/Building-Storage-Adapters#acknowledging-a-code-get-code-send-back-data" },
+                { "Streaming Data back to Gun": "/docs/Building-Storage-Adapters#streaming-data-back-to-gun" },
+                { "Gun Helper Methods": "/docs/Building-Storage-Adapters#gun-helper-methods" },
+                { "Words of Caution": "/docs/Building-Storage-Adapters#words-of-caution" },
+                { "Alternative to writing your own adapter from scratch": "/docs/Building-Storage-Adapters#alternative-to-writing-your-own-adapter-from-scratch" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "Acerca de GUN-ECO": "/docs/about-gun-eco",
+      "pages": [
+        { "Desarrollo": "/docs/about-gun-eco#development" },
+        { "Futuro": "/docs/about-gun-eco#future" }
+      ]
+    }
+  ]
+}

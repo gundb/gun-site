@@ -103,7 +103,8 @@
             { "How to Implement other CRDTs": "/docs/Counter" },
             { "How to use S3 for Storage": "/docs/Using-Amazon-S3-for-Storage" },
             { "How to Help": "/docs/Help" },
-            { "How to Contribute": "/docs/Contributing" }
+            { "How to Contribute": "/docs/Contributing" },
+            { "Wanna help build the game?": "/docs/Games" }
           ]
         },
         {

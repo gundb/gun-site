@@ -350,7 +350,8 @@
             { "sign": "/docs/SEA#sign" },
             { "verify": "/docs/SEA#verify" },
             { "encrypt": "/docs/SEA#encrypt" },
-            { "decrypt": "/docs/SEA#decrypt" }
+            { "decrypt": "/docs/SEA#decrypt" },
+            { "certify": "/docs/SEA#certify" }
           ]
         },
         {

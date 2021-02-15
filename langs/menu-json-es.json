@@ -74,6 +74,7 @@
                 { "Un ejemplo de trabajo": "/docs/React-Tutorial#a-working-example" }
               ]
             },
+            { "Vite": "/docs/Vite"},
             {
               "Svelte": "/docs/Svelte",
               "pages": [

@@ -186,12 +186,12 @@
             },
             { "Graph Data Structure 2": "/docs/GUN’s-Data-Format-%28JSON%29" },
             {
-              "Hypothetical Amnesia Machine": "/docs/Hypothetical-Amnesia-Machine",
+              "Hypothetical Amnesia Machine": "/docs/Hypothetical-Amnesia-Machine-(HAM)",
               "pages": [
-                { "Introduction": "/docs/Hypothetical-Amnesia-Machine#introduction" },
-                { "Existing mechanisms and challenges": "/docs/Hypothetical-Amnesia-Machine#existing-mechanisms-and-challenges" },
-                { "GUN's Hypothetical Amnesia Machine (HAM)": "/docs/Hypothetical-Amnesia-Machine#guns-hypothetical-amnesia-machine-ham-" },
-                { "Footnotes": "/docs/Hypothetical-Amnesia-Machine#footnotes" }
+                { "Introduction": "/docs/Hypothetical-Amnesia-Machine-(HAM)#introduction" },
+                { "Existing mechanisms and challenges": "/docs/Hypothetical-Amnesia-Machine-(HAM)#existing-mechanisms-and-challenges" },
+                { "GUN's Hypothetical Amnesia Machine (HAM)": "/docs/Hypothetical-Amnesia-Machine-(HAM)#guns-hypothetical-amnesia-machine-ham-" },
+                { "Footnotes": "/docs/Hypothetical-Amnesia-Machine-(HAM)#footnotes" }
               ]
             },
             {

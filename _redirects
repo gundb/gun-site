@@ -1,6 +1,6 @@
 /                        /main/index.html                 200!
-/index                   /main/index.html                 301!
-/index.html              /main/index.html                 301!
+/index                   /main/                           301!
+/index.html              /main/                           301!
 
 /docs/*                  /docs/index.html                 200
 /manifest.json           /docs/manifest.json              200

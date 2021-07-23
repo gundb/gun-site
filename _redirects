@@ -1,6 +1,3 @@
-/docs/*                  /docs/index.html                 200
-/manifest.json           /docs/manifest.json              200
-/sw.js                   /docs/sw.js                      200
 /appcache/manifest.appcache  /appcache/manifest.appcache  200
 
 /                        /main/index.html                 200!
@@ -17,3 +14,7 @@
 /chunk-map.json          /main/chunk-map.json             200
 /og-image.png            /main/og-image.png               200
 /webpack.stats.json      /main/webpack.stats.json         200
+
+/docs/*                  /docs/index.html                 200
+/manifest.json           /docs/manifest.json              200
+/sw.js                   /docs/sw.js                      200

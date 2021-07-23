@@ -4,7 +4,9 @@
 
 /appcache/manifest.appcache  /appcache/manifest.appcache  200
 
-/*                       /main/index.html                 200!
+/                        /main/index.html                 200!
+/index                   /main/index.html                 301!
+/index.html              /main/index.html                 301!
 
 /main/*                  /main/main/:splat                200!
 /icons/*                 /main/main/icons/:splat          200!

@@ -1,12 +1,12 @@
-/                        /main/index.html                 200!
-/index                   /main/                           301!
-/index.html              /main/                           301!
-
 /docs/*                  /docs/index.html                 200
 /manifest.json           /docs/manifest.json              200
 /sw.js                   /docs/sw.js                      200
 
 /appcache/manifest.appcache  /appcache/manifest.appcache  200
+
+/                        /main/index.html                 200!
+/index                   /                                301!
+/index.html              /                                301!
 
 /main/*                  /main/main/:splat                200!
 /icons/*                 /main/main/icons/:splat          200!

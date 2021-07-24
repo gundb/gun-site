@@ -1,4 +1,4 @@
-/docs/*                  /docs/index.html                 200
+/docs/*                  /docs/:splat                     200!
 /manifest.json           /docs/manifest.json              200
 /sw.js                   /docs/sw.js                      200
 

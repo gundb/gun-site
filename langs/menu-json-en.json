@@ -309,9 +309,6 @@
                 { "gun.user.leave": "/docs/User#user-leave" },
                 { "gun.user.delete": "/docs/User#user-delete" },
                 { "gun.user.recall": "/docs/User#user-recall" },
-                { "gun.user.alive": "/docs/User#user-alive" },
-                { "gun.user.trust": "/docs/User#user-trust" },
-                { "gun.user.grant": "/docs/User#user-grant" },
                 { "gun.user.secret": "/docs/User#user-secret" }
               ]
             },
